@@ -7,12 +7,12 @@
 
 var RAL = require('yog-ral').RAL;
 
-RAL.init({
-    confDir : bun.CONF_PATH + '/ral',
-    logger : {
-        "log_path" : bun.LOG_PATH + '/ral',
-        "app" : "yog-ral"
-    },
-    currentIDC : 'tc'
-});
+// RAL.init({
+//     confDir : bun.CONF_PATH + '/ral',
+//     logger : {
+//         "log_path" : bun.LOG_PATH + '/ral',
+//         "app" : "yog-ral"
+//     },
+//     currentIDC : 'tc'
+// });
 module.exports = RAL;
