@@ -1,20 +1,19 @@
 {
 	"presets": [
 		[
-			"env", {
+			"@babel/preset-env", {
 				"targets": { // 配支持的环境
 
 					"node": "current"
 				},
+				"modules": 'commonjs',
 				"debug": false, // debug，编译的时候 console
-				"useBuiltIns": true, // 是否开启自动支持 polyfill
+				"useBuiltIns": "usage", // 是否开启自动支持 polyfill
 			}
-		],
-		"stage-2"
+		]
 	],
 	plugins: [
 		["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }],
-		"transform-react-jsx",
-		"transform-es2015-modules-commonjs"
+		"transform-react-jsx"
 	]
 }
