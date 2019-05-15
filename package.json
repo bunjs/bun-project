@@ -12,7 +12,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bun-reactssr-plugin": "^1.0.5",
     "bun-skin": "^1.3.5",
-    "yog-ral": "^0.20.1"
+    "core-js": "^3.0.1"
   },
   "scripts": {
     "start": "node entry.js"

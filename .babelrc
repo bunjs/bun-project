@@ -7,13 +7,18 @@
 					"node": "current"
 				},
 				"modules": 'commonjs',
+				"corejs": "3.0.0",
 				"debug": false, // debug，编译的时候 console
 				"useBuiltIns": "usage", // 是否开启自动支持 polyfill
 			}
 		]
 	],
-	plugins: [
-		["import", { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }],
-		"transform-react-jsx"
-	]
+	"plugins": [
+        [
+            "import", 
+            { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }
+        ],
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        "transform-react-jsx"
+    ]
 }
