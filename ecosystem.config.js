@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: "$_projectname",
+        name: "$_appname",
         script: "./entry.js",
         watch: false,
         kill_timeout: 10 * 1000,

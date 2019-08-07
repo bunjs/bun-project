@@ -1,5 +1,5 @@
 {
-  "name": "$_projectname",
+  "name": "$_appname",
   "version": "1.0.0",
   "dependencies": {
     "@babel/core": "^7.1.2",
