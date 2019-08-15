@@ -18,6 +18,6 @@
             "import", 
             { "libraryName": "antd", "libraryDirectory": "lib", "style": "css" }
         ],
-        ["@babel/plugin-proposal-decorators", { "legacy": true }]
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
     ]
 }

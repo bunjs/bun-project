@@ -8,11 +8,9 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
     "antd": "^3.6.6",
-    "babel-loader": "^8.0.4",
     "babel-plugin-import": "^1.8.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "bun-reactssr-plugin": "^1.0.5",
-    "bun-skin": "^1.7.1",
+    "bun-skin": "^1.7.2",
     "core-js": "^3.0.1"
   },
   "scripts": {
