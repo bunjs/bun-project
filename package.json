@@ -11,7 +11,8 @@
     "babel-plugin-import": "^1.8.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "bun-skin": "^1.7.2",
-    "core-js": "^3.0.1"
+    "core-js": "^3.0.1",
+    "deepmerge": "^4.0.0"
   },
   "scripts": {
     "start": "node entry.js"
